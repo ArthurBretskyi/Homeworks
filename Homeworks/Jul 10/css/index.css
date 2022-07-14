@@ -1,0 +1,66 @@
+/*Reset*/
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0%;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/*General Styles*/
+
+body {
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    line-height: 24.51px; 
+    letter-spacing: normal;
+    color: black;
+}
+.second_titles {
+    font-weight: 700;
+    line-height: 46.3px;
+}
+.container {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+}
+/*Header*/ 
+.header {
+    width: 100%px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 120px;
+    border-bottom: 1px solid #828282;
+}
+.nav_list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    width: 496px;
+    height: 30px;
+    color: #828282;
+}
+.list_item.active {
+    color: black;
+}
+.nav_list:hover {
+    color: black;
+}
