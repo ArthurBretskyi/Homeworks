@@ -46,7 +46,9 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0px 120px;
-    border-bottom: 1px solid #828282;
+    border-bottom:  1px solid #828282;
+    
+    
 }
 .nav_list {
     display: flex;
@@ -63,4 +65,17 @@ body {
 }
 .nav_list:hover {
     color: black;
+}
+.name {
+    margin-top: 12px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    width: 300px;
+    height: 60px
+}
+.photo {
+    width: 970px;
+    height: 387px;
 }
