@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@100;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!--Main+User Name-->
+    <div class="container">
+      <form
+        class="account"
+        action="#"
+        method="post"
+        enctype="multipart/form-data"
+      >
+        <h1 class="heading">Create an Account</h1>
+        <div class="user_name">
+          <p class="first_name">First Name</p>
+          <p class="last_name">Last Name</p>
+        </div>
+        <input
+          class="first_name_input"
+          type="text"
+          name="first name"
+          value=""
+        />
+        <input class="last_name_input" type="text" name="last name" value="" />
+        <!--E-mail-->
+        <p class="e-mail">E-mail</p>
+        <input class="e-mail_input" type="text" name="e-mail" value="" />
+        <p class="buttom_text">
+          We'll never share your email with anyone else.
+        </p>
+        <!--Gender-->
+        <div class="gender_radio">
+          <input class="male_select" type="radio" name="gender" value="male" />
+          <p class="male">Male</p>
+          <input
+            class="female_select"
+            type="radio"
+            name="gender"
+            value="female"
+          />
+          <p class="female">Female</p>
+        </div>
+        <!--Location-->
+        <div class="location">
+          <p class="country">Country</p>
+          <p class="city">City</p>
+        </div>
+        <select class="country_select" name="Country">
+          <option class="country_name" value="Germany">Germany</option>
+          <option class="country_name" value="United Kingdom">
+            United Kingdom
+          </option>
+          <option class="country_name" value="France">France</option>
+          <option class="country_name" selected value="Ukraine">Ukraine</option>
+        </select>
+        <input class="last_name_input" type="text" name="last name" value="" />
+        <!--Sign Up-->
+        <a href="#"
+          ><button class="sign_button" type="submit">Sign Up</button></a>
+        <!--Confirm Text-->
+        <p class="confirm_text">
+          By clicking the 'Sign Up' button, you confirm that you accept our
+          <a href="#"><span>Terms of Use</span></a> and <a href="#"><span>Privacy Policy</span></a>.
+        </p>
+        <hr class="border">
+        <!--Footer-->
+        <div class="footer">
+          <p class="footer_text">Have an account? <a href="#"><span>Log In</span></a></p>
+          <!--Profile-->
+      </form>
+        </div>
+      <form class="profile" action="#" method="post" enctype="multipart/form-data">
+        <h1 class="heading">Profile</h1>
+        <div class="user_photo">
+          <img class="photo" src="./assets/img/📷 Image.jpg" alt="profile photo" >
+        
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
