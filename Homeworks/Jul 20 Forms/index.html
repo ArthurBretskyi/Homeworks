@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@100;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Account</title>
+  </head>
+  <body>
+    <div class="conteiner">
+      <form action="#" method="post" enctype="multipart/form-data">
+        <div class="account">
+          <div class="header"><h1>Create an Account</h1></div>
+          <div class="name_form_text">
+            <label class="first_name" for="first_name">First Name</label>
+            <label class="last_name" for="last_name">Last Name</label>
+          </div>
+          <div class="name_form_input">
+            <input
+              class="first_name_input" tabindex="1"
+              type="text"
+              id="first_name"
+              name="user_name"
+            />
+            <input
+              class="last_name_input" tabindex="2"
+              type="text"
+              id="last_name"
+              name="user_name"
+            />
+          </div>
+          <div class="mail">
+            <label class="email_text" for="email">E-mail</label>
+            <input class="email_input" tabindex="3" type="text" id="email" name="email" />
+          </div>
+          <p class="bottom_text">
+            We'll never share your email with anyone else.
+          </p>
+
+          <!--Radio-->
+         <input class="male_radio" tabindex="4" type="radio" form="male" name="gender">
+         <label class="male_text" id="male">
+            <!--<span class="fake_radio"></span>--> Male
+         </label>
+            <input class="female_radio" tabindex="4" type="radio" id="femail" name="gender">
+            <label class="femail_text" for="femail">Femail</label>
+
+            <!--Checkbox-->
+
+            <div class="checkbox_block">
+
+              <label class="country_text" for="county">Country</label>
+              <select class="country_select" tabindex="5" name="country" id="coutry"></select>
+              
+               <label class="city_text" for="city">City</label>
+              <input class="city_input" tabindex="6" type="text" id="city" name="city">
+              
+             
+            </div>
+          
+          
+        </div>
+      </form>
+
+      <div class="profile"></div>
+    </div>
+  </body>
+</html>

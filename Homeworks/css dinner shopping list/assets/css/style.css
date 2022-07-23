@@ -1,0 +1,437 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    background: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+}
+*{transition: all .1s ease-in;}
+
+.conteiner {
+    width: 793px;
+    height: 507px;
+    max-width: 793px;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    background: #3B3F45;
+}
+
+/*Header*/
+
+.header {
+    width: 793px;
+    height: 82px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #4A4F56;
+} 
+
+.titl {
+    width: 276px;
+    height: 28px;
+    position: absolute;
+    left: 247px;
+    top: 19px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FF8984;
+    margin: 0;
+}
+
+.bottom_text {
+    width: 139px;
+    height: 19px;
+    position: absolute;
+    left: 316px;
+    top: 51px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #FF8984;
+    margin: 0;
+}
+
+/*Main*/
+
+/*Point1*/
+
+.point1 {
+width: 534px;
+height: 45px;
+position: absolute;
+top: 102px;
+left: 129px;
+background: #88839E;
+}
+.point1:hover {
+    cursor: pointer;
+   background-color: #625E77;
+   border-top: 3px solid #ffffff;
+   border-bottom: 3px solid #ffffff;
+   z-index: 1;
+}
+.point1:active {
+    background-color: #FF8984;
+}
+
+.checkbox_point1 {
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    left: 141px;
+    top: 114px;
+    background: #FFFFFF;
+    margin: 0;
+    z-index: 1;
+}
+
+
+.first_text_point1 {
+    width: 119px;
+    height: 21px;
+    position: absolute;
+    left: 176px;
+    top: 113px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.second_text_point1 {
+    width: 175px;
+    height: 16px;
+    position: absolute;
+    left: 298px;
+    top: 114px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+
+/*Point2*/
+
+.point2 {
+    width: 534px;
+    height: 45px;
+    position: absolute;
+    top: 147px;
+    left: 129px;
+    background: #7A7593;
+}
+.point2:hover {
+    cursor: pointer;
+   background-color: #625E77;
+   border-top: 3px solid #ffffff;
+   border-bottom: 3px solid #ffffff;
+   z-index: 1;
+}
+.point2:active {
+    background-color: #FF8984;
+}
+
+.checkbox_point2 {
+position: absolute;
+width: 19px;
+height: 19px;
+left: 141px;
+top: 159px;
+background: #FFFFFF;
+margin: 0;
+z-index: 1;
+
+}
+.first_text_point2 {
+    position: absolute;
+    width: 78px;
+    height: 21px;
+    left: 176px;
+    top: 158px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #9B96AC;
+    z-index: 1;
+}
+.second_text_point2 {
+    position: absolute;
+    width: 175px;
+    height: 16px;
+    left: 254px;
+    top: 159px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+    color: #9B96AC;
+    z-index: 1;
+}
+
+/*Point3*/
+
+.point3 {
+    width: 534px;
+    height: 45px;
+    position: absolute;
+    top: 192px;
+    left: 129px;
+    background:#88839E;
+} 
+.point3:hover {
+    cursor: pointer;
+   background-color: #625E77;
+   border-top: 3px solid #ffffff;
+   border-bottom: 3px solid #ffffff;
+   z-index: 1;
+}
+.point3:active {
+    background-color: #FF8984;
+}
+
+.checkbox_point3 {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 141px;
+    top: 204px;
+    background: #FFFFFF;
+    margin: 0;
+     z-index: 1;
+}
+.first_text_point3 {
+    position: absolute;
+    width: 90px;
+    height: 21px;
+    left: 176px;
+    top: 203px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+     z-index: 1;
+}
+.second_text_point3 {
+    position: absolute;
+    width: 175px;
+    height: 16px;
+    left: 269px;
+    top: 206px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+     z-index: 1;
+
+}
+
+/*Point4*/
+
+.point4 {
+    width: 534px;
+    height: 45px;
+    position: absolute;
+    top: 237px;
+    left: 129px;
+    background:  #7A7593;
+}
+.point4:hover {
+    cursor: pointer;
+   background-color: #625E77;
+   border-top: 3px solid #ffffff;
+   border-bottom: 3px solid #ffffff;
+   z-index: 1;
+}
+.point4:active {
+    background-color: #FF8984;
+}
+
+.checkbox_point4 {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 141px;
+    top: 249px;
+    background: #FFFFFF;
+    margin: 0;
+    z-index: 1;
+}
+.first_text_point4 {
+    position: absolute;
+    width: 74px;
+    height: 21px;
+    left: 176px;
+    top: 248px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    z-index: 1;
+}
+.second_text_point4 {
+    position: absolute;
+    width: 175px;
+    height: 16px;
+    left: 253px;
+    top: 252px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+/*Point5*/
+
+.point5 {
+width: 534px;
+height: 45px;
+position: absolute;
+top: 282px;
+left: 129px;
+background: #88839E;
+}
+.point5:hover {
+    cursor: pointer;
+   background-color: #625E77;
+   border-top: 3px solid #ffffff;
+   border-bottom: 3px solid #ffffff;
+   z-index: 1;
+}
+.point5:active {
+    background-color: #FF8984;
+}
+
+.checkbox_point5 {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 141px;
+    top: 294px;
+    background: #FFFFFF;
+    margin: 0;
+    z-index: 1;
+}
+.first_text_point5 {
+    position: absolute;
+    width: 122px;
+    height: 19px;
+    left: 176px;
+    top: 294px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+/*Point6*/
+
+.point6 {
+    width: 534px;
+    height: 45px;
+    position: absolute;
+    top: 327px;
+    left: 129px;
+    background: #7A7593;
+}
+.point6:hover {
+    cursor: pointer;
+   background-color: #625E77;
+   border-top: 3px solid #ffffff;
+   border-bottom: 3px solid #ffffff;
+   z-index: 1;
+}
+.point6:active {
+    background-color: #FF8984;
+}
+
+.checkbox_point6 {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 141px;
+    top: 339px;
+    background: #FFFFFF;
+    margin: 0;
+    z-index: 1;
+}
+.first_text_point6 {
+    position: absolute;
+    width: 126px;
+    height: 21px;
+    left: 176px;
+    top: 338px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #9B96AC;
+    z-index: 1;
+}
+.second_text_point6 {
+    position: absolute;
+    width: 175px;
+    height: 16px;
+    left: 306px;
+    top: 339px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+    color: #9B96AC;
+    z-index: 1;
+}
+
+/*Footer*/
+
+.point7 {
+    width: 534px;
+    height: 45px;
+    position: absolute;
+    top: 417px;
+    left: 129px;
+    background:#4A4F56;
+}
+.point7:hover {
+    cursor: pointer;
+   background-color: #625E77;
+   border-top: 3px solid #ffffff;
+   border-bottom: 3px solid #ffffff;
+   z-index: 1;
+}
+.point7:active {
+    background-color: #801815;
+}
+
+.footer_text {
+    position: absolute;
+    width: 107px;
+    height: 21px;
+    left: 333px;
+    top: 429px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FF8984;
+    z-index: 1;
+}
+
